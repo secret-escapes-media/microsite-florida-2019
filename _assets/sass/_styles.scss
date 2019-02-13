@@ -31,12 +31,12 @@
 
 
   .bv-headline-divider::after {
-    content: ('–––');
+    content: ('========');
     display: block;
-    color: $i-blue;
+    //color: $f-blue;
     font-size: $s5;
-    letter-spacing: -4px;
-    margin: -3px 0 -2px 2px;
+    letter-spacing: -8px;
+    margin: 5px 0 -8px 2px;
   }
 
    .bv-lineheight{
@@ -142,7 +142,7 @@
 
   &--blue{
     background-image: none!important;
-    background-color: $i-blue;}
+    background-color: $f-blue;}
 }
 
 .bv-parallax{

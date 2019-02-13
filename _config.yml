@@ -1,18 +1,18 @@
 # Site settings
-title: Italien
+title: Florida
 client:
   name: Unentdeckte Schätze
   link: "http://www.italia.it"
-core-se-link: https://www.secretescapes.de/aktuelle-angebote?utm_source=SE&utm_medium=hub&utm_campaign=italy_DE_2018
+core-se-link: https://www.secretescapes.de/aktuelle-angebote?utm_source=SE&utm_medium=hub&utm_campaign=florida_DE_2019
 description: >
-  Begeben Sie sich auf die Spuren der Etrusker, finden Sie einzigartige Relikte vergangener Zeiten wie die apulischen Trulli, erleben Sie das authentische Flair italienischer Dörfer in kleinen Borghi oder spüren Sie beim Genuss der Cucina italiana das mediterrane Lebensgefühl
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 # file paths
 url:     "http://mp.secretescapes.com" # the base hostname & protocol for your site
-baseurl: "/de/italien" # the subpath of your site, e.g. /blog/
-img:     "/de/italien/_assets/img"
-css:     "/de/italien/_assets/css"
-js:      "/de/italien/_assets/js"
+baseurl: "/de/florida" # the subpath of your site, e.g. /blog/
+img:     "/de/florida/_assets/img"
+css:     "/de/florida/_assets/css"
+js:      "/de/florida/_assets/js"
 
 
 # Build settings
