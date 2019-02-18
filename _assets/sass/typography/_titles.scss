@@ -95,7 +95,10 @@
   line-height: .95em;
 
   @include bp($md){ font-size: $s12;  }
-  @include bp($xl){ font-size: $s13;  line-height: 1em;
+  @include bp($xl){ font-size: $s14;  line-height: .8em;
+
+  &--lg   { font-size: $s11;  }
+  &--md   { font-size: $s10;  }
   }
 
 }
@@ -108,8 +111,17 @@
   letter-spacing: -.02em;
   //color: $f-blue;
   font-size: $s6;
-  @include bp($md){ font-size: $s8; }
+
+  &--xxl   { font-size: $s7; line-height: 1.1; }
+
+  @include bp($md){ font-size: $s8;
+
+  &--xxl   { font-size: $s8; line-height: 1.1; }
+}
   @include bp($xl){ font-size: $s6; letter-spacing: 1px; line-height: 1em;
+
+  &--xxl   { font-size: $s9; line-height: 1.1; }
+
   }
 
 }

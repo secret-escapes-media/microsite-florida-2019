@@ -3,7 +3,7 @@
 $site-nav-height:    60px;
 $site-nav-height-sm: 44px;
 $nav-width-bp:       860px;
-$nav-color:          $white;
+$nav-color:          $f-lightblue;
 
 
 // global site nav height
@@ -18,7 +18,7 @@ $nav-color:          $white;
 
 .site-nav {
   position: relative;
-  background-color: rgba($nav-color,1);
+  background-color: rgba($nav-color,.9);
   //border: 1px solid rgba($black,.05);
   text-align: center;
 
@@ -89,13 +89,13 @@ $nav-color:          $white;
     padding-right: $s4;
     font-family: $font-core;
     font-weight: 700;
-    font-size: 11px;
-    letter-spacing: .2em;
+    font-size: 12px;
+    letter-spacing: .1em;
     text-transform: uppercase;
-    color: rgba($black,.6);
+    color: rgba($white,1);
     transition: background-color $transition-time ease;
     white-space: nowrap;
-    &.is-current      { color: rgba($f-blue,1);  background-color: rgba($grey-lightest,1);  }//border-bottom: 2px solid $f-blue; padding-top:2px; color: rgba($f-blue,1);
+    &.is-current      { color: rgba($f-blue,1);  background-color: rgba($white,1);  }//border-bottom: 2px solid $f-blue; padding-top:2px; color: rgba($f-blue,1);
     .no-touch &:hover {  color: rgba($f-blue,1);  background-color: rgba($grey-lightest,1);}
     @include bp($nav-width-bp){
       padding-left: $s0;

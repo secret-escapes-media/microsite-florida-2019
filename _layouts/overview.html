@@ -8,7 +8,8 @@ layout: default
     <div class="width width--xl text--left text text--white " >
       <div class="text text--xxxl">{{page.intro-title}}</div>
       <div class="space--sm"></div>
-       <div class="text--xl text--italic">{{page.intro}}</div>
+       <div class="text--xl">{{page.intro}}</div>
+       <div class="space--md"></div>
     </div>
   </div>
 </div>
@@ -21,15 +22,15 @@ layout: default
   {% for destination in destinations %}
 <div class=" vpad--lg  {% cycle 'bg--f-sand', 'bg--f-lightblue' %}">
   <div class="container">
-  <div class="bob   {% cycle '', 'bob--swap' %} ">
+  <div class="bob   {% cycle 'bob--swap', '' %} ">
     <div class="bob__img">
-      <a href="{{site.baseurl}}{{destination.url}}"  class="bg-img bg-img--4-3" style="background-image: url('{{site.img}}/content/{{destination.id}}.jpg'); border: 12px solid white; box-shadow: 0px 0px 20px rgba(0,0,0, 0.3);  " ></a>
+      <a href="{{site.baseurl}}{{destination.url}}"  class="bg-img bg-img--4-3 bv-photoborder" style="background-image: url('{{site.img}}/content/{{destination.id}}.jpg'); box-shadow: 0px 0px 20px rgba(0,0,0, 0.3);  {% cycle 'transform: rotate(1.5deg);', 'transform: rotate(-1.5deg);' %}" ></a>
     </div>
     <div class="bob__text">
       <h3 class="title serif-title text--blue bv-headline-divider ">{{destination.title}}</h3>
       <p class="text  {% cycle 'text--black ', 'text--white text--normal' %}  text--xl">{{destination.summary}}</p>
       <div class="space--lg"></div>
-      <a href="{{site.baseurl}}{{destination.url}}" class="btn btn--{% cycle 'outline-black', 'outline-white' %}" >Mehr Infos</a>
+      <a href="{{site.baseurl}}{{destination.url}}" class="btn btn--{% cycle 'outline-black', 'outline-white' %}" >Jetzt entdecken</a>
     </div>
   </div>
 </div>

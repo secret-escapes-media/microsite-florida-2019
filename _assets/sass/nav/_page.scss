@@ -3,7 +3,7 @@
 $page-nav-height:    54px;
 $page-nav-height-sm: 44px;
 $nav-width-bp:       990px;
-$nav-color:          $f-lightblue;
+$nav-color:          $f-blue;
 
 
 // global site nav height
@@ -21,7 +21,7 @@ $nav-color:          $f-lightblue;
   top: 0; left: 0;
   z-index: $z-nav;
   width: 100%;
-  background-color: rgba($nav-color,1);
+  background-color: rgba($nav-color,.8);
   text-align: center;
 
 
@@ -99,7 +99,7 @@ $nav-color:          $f-lightblue;
     transition: background-color $transition-time ease;
     white-space: nowrap;
     &.is-current      { background-color: rgba($orange,1); color: $white; }
-    .no-touch &:hover { background-color: rgba($f-sand,1); color: $f-blue;}
+    .no-touch &:hover { background-color: rgba($white,1); color: $f-blue;}
   }
 
   // js-sticky-nav style

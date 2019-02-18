@@ -218,23 +218,18 @@
 
 
 /* ==========================================================================
-Insidertipps
+Old photo border
 ========================================================================== */
 
-.bv-img-insider{
-  width: 75%;
-  max-width: $lg;
+.bv-photoborder{
 
-  @include bp($xl) {
-    width: 25%;
-    max-width: none;
-  }
+  border: 12px solid $white;
+  background-color: $white;
+  //padding: 15px;
+  //border-image: url(../img/icons/frame.png) 30 stretch;
 }
 
-.bv-img-circle {
-  border-radius: 500px;
-  border: 4px $white solid;
-}
+
 
 /* ==========================================================================
 Flight tag - Offers

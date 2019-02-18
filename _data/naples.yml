@@ -1,7 +1,7 @@
 - id: one
-  title: Naples
+  title: Mediterran trifft Karibik
   img: bg-img1
-  description: "Vom Pier 60 aus, am Clearwater Beach, haben Sie den besten Blick auf den Sonnenuntergang. Jeden Abend wird das Sunset Festival mit viel Musik zelebriert. Für sportliche Aktivitäten, wie Paragliding oder Paddle Boarding, bietet der St. Pete Beach die optimalen Bedingungen. In Pass-A-Grille oder Treasure Island treffen Sie auf den Charme des alten Floridas und auf einheimische Küche. Familien fühlen sich am Fort De Soto ganz besonders wohl und nach kurzer Überfahrt mit der Fähre erreichen Sie die Inseln Honeymoon Island und Caladesi Island, die mit ihren naturbelassenen Stränden begeistern. "
+  description: "Das Städtchen Naples ist ein echtes Einkaufsparadies. Die Fifth Avenue South und die Third Street South, begeistern mit eleganten Boutiquen namhafter Luxusmarken. Zwischen den Häusern im mediterranen Stil, logieren internationale Restaurants mit gehobener Küche und reihen sich zwischen Galerien in die palmengesäumte Straße ein. Entlang der Strandpromenade, der Venetian Bay, mit ihren wunderschönen Springbrunnen, genießen Sie einen freien Blick auf das Meer, während Ihrer Einkaufstour. In Mercato feiern Sie in beliebten Bars oder Clubs in die Nacht hinein oder verbringen den Abend im Kino."
 
 
 
@@ -9,9 +9,9 @@
 
 
 - id: two
-  title:  Tropisches Inselparadies Marco&nbsp;Island
+  title:  Zwischen Süßwasser und Meer
   img: bg-img2
-  description: "Kunterbunte Wandgemälde erstrahlen in den Straßen von St. Petersburg und beeindrucken in Kreativität und Farbe. Das jährliche Street Art Festival Shine St. Pete ist der Grund für die wunderschönen Kunstwerke, die quer durch die Stadt verteilt, auf Touren zu besichtigen sind. Das größte Dali Museum außerhalb Spaniens erstrahlt mit einer überzeugenden Sammlung in skurriler Architektur. Skulpturen und Installationen aus Muranoglas, wie die Chihuly Collection und das Museum der schönen Künste, wartet mit Werken von Klassiker bis hin zur Gegenwartskunst auf Sie. "
+  description: "Die traumhafte Badeinsel Marco Island ist über eine Brücke an das Festland angebunden. Zarter, weißer Sand und tiefhängende Kokospalmen sind beste Voraussetzungen für eine Auszeit am Strand. Von hier starten Erkundungstouren zu den Ten Thousend Islands: Die grünen Mangrovenwälder und Sumpfgebiete sind ein unberührtes Ökosystem. Wildtiere, wie Fischadler, Seekühe, Delfine und Alligatoren, leben in dem Übergangsgebiet zwischen Süßwasserfluss und Meer. Mit Sumpfbooten oder in kleinen Kajak-Gruppen, gilt es dieses aufregende Mündungsgebiet zu erkunden."
 
 
 
@@ -20,9 +20,9 @@
 
 
 - id: three
-  title: Naturspektakel Everglades
+  title: Floridas wilder Panther
   img: bg-img3
-  description: "Nur wenige Minuten von der Stadt St. Petersburg entfernt, liegt das Weedon Island Reservat mit seiner weitläufigen Flusslandschaft. Der Naturschutzpark hat ein eigenes Zentrum für Kunst und Geschichte der Ureinwohner. Mit einer Kajak-Tour erkunden Sie die Ufer des Flusses ganz entspannt vom Wasser aus. Wunderschöne Wanderwege schlängeln sich entlang des Lago Maggiore im Boyd Hill Naturpark. Die unberührte Landschaft ist nicht nur eine Oase für Vogelbeobachter, sondern wird alle Naturfans in ihren Bann ziehen."
+  description: "Zugegeben einen Panther erwartet man in diesem feuchten Sumpfgebiet am wenigsten. Doch es ist wahr: Im Everglades Nationalpark lebt Floridas einziger wilder Panther. Mit etwas Glück können Sie dieses scheue Tier in seiner natürlichen Umgebung beobachten. Auf Wanderungen durch das Unesco Weltnaturerbe begegnen Ihnen zudem die seltenen Manatis. Mit einer Fahrrad-Tour entlang der Snake Bight Trail und der Long Pine Key Nature Trail, erkunden Sie rund um das Schwemmland die flachen Ebenen der Mangrovenwälder. Entdecken Sie unbedingt vom Wasser aus die vielen Flüsse, Ströme und kleinen Inseln."
 
 
 
@@ -32,7 +32,7 @@
 - id: four
   title: Traumstrände
   img: bg-img4
-  description: "Einen Favoriten zu finden ist schwer, denn die Auswahl an Restaurants ist groß: Von klassischen Gerichten, wie dem Zackenbarsch oder den beliebten kubanischen Sandwiches, bis zu Speisen mit internationalen Einflüssen, wie die leckeren Menüs im Tarpon Springs. Mit einem leckeren Cocktail klingt der Abend aus und das Nachtleben beginnt. Musikveranstaltungen rund um den Clearwater Beach und in den angesagten Dance Clubs der Stadt finden jeden Abend statt. Wer es ruhiger mag, findet in der Innenstadt Kneipen und Bars, wie The Ale & The Witch. "
+  description: "Paradise Coast: Diese atemberaubende Küste erstreckt sich 48 km entlang der Golfküste und überall wartet feiner, weißer Sandstrand. Muschelsammler finden am Delnor-Wiggins Pass State Park die schönsten Exemplare. Ob Schnorcheln, Angeln, Kajak oder Tretboot fahren, im Barefoot Beach Preserve County Park steht dem Freizeitspaß am Strand nichts im Wege.  Auch am Vanderbilt Beach, am Tigertail Beach von Marco Island und am Municipal Beach von Naples, wird Boots- und Ausrüstungsverleih angeboten. Nur vom Wasser aus sind die unbewohnten Ten Thousand Islands und ihre kleinen Strandbuchten zu erreichen. "
 
 
 
@@ -42,7 +42,7 @@
 - id: five
   title: Kulinarische Highlights
   img: bg-img5
-  description: "Bekannt für seine frischen, handwerklich gebrauten Craft Biere, ist die Region entlang der Küste von Clearwater: Über 15 kleine Privatbrauereien gilt es hier zu erkunden. Nehmen Sie auf einer Tour, unter fachkundiger Anleitung, feine Kostproben vor Ort und überzeugen Sie sich selbst von der Vielfalt der Bierbrauerei-Kunst. Sowohl Bierkenner als auch Neulinge finden hier Biere, die es nirgendwo sonst gibt, wie das “Florida Weisse”: Mit wenig Alkohol, dafür aber mit viel Kohlensäure versetzt und mit Früchten geschmacklich abgerundet – ganz ähnlich dem Berliner Weisse."
+  description: "Das Restaurant French Brasserie Rustique tischt seinen Gästen selbst angebautes Bio-Gemüse auf. Star-Koch Vincenzo Betulia verwandelt dabei die ökologischen Zutaten zu prämierten Gerichten und Menüs. Im Hafenviertel Crayton Cove können Angler unter dem Motto 'Cook-your-Catch', ihren frisch gefangenen Fisch selbst  zu schmackhaften Speisen anrichten. Auf dem jährlichen Naples Stone Crab Festival werden neue Kreationen mit Meeresfrüchten präsentiert und verköstigt. Spezialitäten, wie der Dreischwanzbarsch, Red Snapper und der Wahoo, sind in fast allen Restaurants entlang der Küste zu finden."
 
 
 
