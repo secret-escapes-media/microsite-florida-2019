@@ -247,3 +247,204 @@ Flight tag - Offers
     width: 146px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******* hide*******/
+.pt-hidden{
+  display: none;
+}
+.pt-show{
+  display: block;
+}
+
+/**********box shadow*********/
+.bv-box-shadow{
+
+      -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+}
+
+
+/*********** Categories Colours *********/
+
+.pt-hpad-sm{
+
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+
+.pt-nature{
+  background-color: #4cb379;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.pt-nature-font{
+  color: #299056;
+  }
+
+.pt-nature-pin{
+    background-color: #299056;
+    }
+
+
+
+.pt-pleasure{
+  background-color: #fcc606;
+  border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.pt-pleasure-font{
+  color: #fcc606;
+  }
+.pt-pleasure-pin{
+      background-color: #fcc606;
+      }
+
+.pt-active{
+  background-color: #4ea1d9;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.pt-active-font{
+  color: #4ea1d9;
+  }
+.pt-active-pin{
+        background-color:  #4ea1d9;
+        }
+
+
+
+
+    @media only screen and (max-width: 970px) {
+
+
+      .pt-culture, .pt-active, .pt-pleasure, .pt-nature{
+
+          border-radius: 6px;
+
+    }}
+/************ Preview-Box / accordion ***************/
+
+
+
+.pt-preview-bg-pos{
+ background-position: right center;
+}
+
+.pt-preview-wrapper, .pt-preview-default{
+  //position: absolute;
+  /*width:72%;
+  margin-right: 18%;
+  margin-top: 12%;
+  //display: table;*/
+  min-width: 400px;
+  max-width: 580px;
+  border-bottom: 3px solid $f-red;
+ width:100%;  height:auto; float: right; margin-top:10%; margin-left:20px;
+}
+
+.pt-preview-default{
+/*
+  width:60%;
+  top: 22%;*/
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+.pt-preview-wrapper{
+
+  margin-top: 15%;
+
+}
+}
+
+.pt-opacity{
+
+ background-color: #000;
+ width:100%;
+ height: 100%;
+ padding: 0;
+ text-align: center;
+
+
+}
+
+
+.accordion {
+    /*background-color: #eee;*/
+
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    color: #fff;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+    font-weight: normal;
+}
+.accordion::after{
+  content: url(../img/icons/close.svg);
+  transform: scale(.3) rotate(45deg);
+  display: block;
+  margin-top: -42px;
+  margin-bottom: -18px;
+  margin-left: 90%;
+}
+ .accordion:hover{
+
+   font-weight: bold;
+ }
+ .active{
+
+      font-weight: bold;
+
+
+     /**/
+ }
+.active::after {
+content: url(../img/icons/close.svg);
+  transform: scale(.3)  rotate(0deg);
+
+}
+
+.panel {
+    padding:18px;
+    margin-top: -3px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    text-align: left;
+    font-size: 16px;
+    font-weight: normal;
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+
+}
+
+.panel-img{
+width:100%;
+padding-bottom: 20%;
+padding-top:20%;
+background-size: cover;
+text-align: center;
+letter-spacing: -0.5px;
+background-position: right center;
+
+}

@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+
+<div class=" vpad--xxl {{page.colour}} " >
+  <div class="container">
+    <div class="width width--xl text--left text text--white " >
+      <div class="text text--xxxl">{{page.intro-title}}</div>
+      <div class="space--sm"></div>
+       <div class="text--xl"></div>
+       <div class="space--md"></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+  {% assign destinations = site.html_pages | where: 'content-pages', 'true'  | sort:'nav-order' %}
+
+  {% for destination in destinations %}
+<div class=" vpad--lg  {% cycle 'bg--f-sand', 'bg--f-lightblue' %}">
+  <div class="container">
+  <div class="bob   {% cycle 'bob--swap', '' %} ">
+    <div class="bob__img">
+      <a href="{{site.baseurl}}{{destination.url}}"  class="bg-img bg-img--4-3 bv-photoborder" style="background-image: url('{{site.img}}/content/{{destination.id}}.jpg'); box-shadow: 0px 0px 20px rgba(0,0,0, 0.3);  {% cycle 'transform: rotate(1.5deg);', 'transform: rotate(-1.5deg);' %}" ></a>
+    </div>
+    <div class="bob__text">
+      <h3 class="title serif-title text--blue bv-headline-divider ">{{destination.title}}</h3>
+      <p class="text  {% cycle 'text--black ', 'text--white text--normal' %}  text--xl">{{destination.summary}}</p>
+      <div class="space--lg"></div>
+      <a href="{{site.baseurl}}{{destination.url}}" class="btn btn--{% cycle 'outline-black', 'outline-white' %}" >Jetzt entdecken</a>
+    </div>
+  </div>
+</div>
+</div>
+  {% endfor %}

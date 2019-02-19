@@ -3,24 +3,85 @@ layout: default
 ---
 
 
-<div class=" vpad--xxl {{page.colour}} " >
-  <div class="container">
-    <div class="width width--xl text--left text text--white " >
-      <div class="text text--xxxl">{{page.intro-title}}</div>
-      <div class="space--sm"></div>
-       <div class="text--xl">{{page.intro}}</div>
-       <div class="space--md"></div>
+
+
+<div class="harvey pt-mob-hide bg--f-lightblue" >
+
+  <!-- Preview Popups /-->
+
+
+  <div class="harvey__img pt-show" class="pt-preview" id="pt-preview-0" style="background-image: url('{{site.img}}/content/offers/hero.jpg');">
+      <div  class=" pt-preview-default bg--white bv-box-shadow" style="">
+        <div class="text text--xxl text--left boxpad--lg"  >Um ausgewählte Highlights zu sehen, klicken Sie mit der Maus auf die roten Regionen auf der Karte.</div>
+      </div>
+  </div>
+
+  {% for popup in page.map-popup %}
+
+    <div class="harvey__img pt-hidden text" id="pt-preview-{{popup.id}}">
+      <a href="{{site.baseurl}}/{{popup.region}}">
+        <div  style="" class="pt-preview-wrapper bv-box-shadow bg--white" >
+          <div class="bg-img bg-img--16-9" style="background-image: url('{{site.img}}/content/{{popup.region}}/hero.jpg'); ">
+              <div class="bg-img__content">
+                <div class="serif-title serif-title--xl bv-headline-divider ">{{popup.title}}</div>
+              </div>
+          </div>
+          <div class="space--xxs"></div>
+          <div class="text--md text--black boxpad--md" >{{popup.content}} <span class="text--red text--bold">Jetzt&nbsp;entdecken!</span></div>
+          <div class="space--xxs"></div>
+        </div>
+      </a>
     </div>
+
+  {% endfor %}
+
+
+
+
+
+
+  <!-- Map /-->
+  <div class="bob__text ">
+
+
+    <div class="" style=" width:100%; max-width:500px;  height:auto; float: left; margin-left:15%">
+
+
+{% include page/map.html %}
+
+<div class="space--xl"></div>
+
+  </div>
+
   </div>
 </div>
 
 
 
 
+
+<script>
+var total = 8;
+total = document.getElementsByClassName("bv-box-shadow");
+
+function toggle(n){
+
+	for(i = 0; i<= total.length; i++){
+		document.getElementById('pt-preview-'+i).style.display ="none";
+		if (i == n){
+			document.getElementById('pt-preview-'+n).style.display ="block";
+		}
+	}
+}
+
+</script>
+
+
+<!--
   {% assign destinations = site.html_pages | where: 'content-pages', 'true'  | sort:'nav-order' %}
 
   {% for destination in destinations %}
-<div class=" vpad--lg  {% cycle 'bg--f-sand', 'bg--f-lightblue' %}">
+<div class=" vpad--lg  {% cycle 'bg--f-lightblue', 'bg--f-sand' %}">
   <div class="container">
   <div class="bob   {% cycle 'bob--swap', '' %} ">
     <div class="bob__img">
@@ -35,4 +96,4 @@ layout: default
   </div>
 </div>
 </div>
-  {% endfor %}
+  {% endfor %}-->

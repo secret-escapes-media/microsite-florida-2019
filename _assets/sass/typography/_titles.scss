@@ -112,6 +112,7 @@
   //color: $f-blue;
   font-size: $s6;
 
+  &--xl   { font-size: $s7; line-height: 1.1; }
   &--xxl   { font-size: $s7; line-height: 1.1; }
 
   @include bp($md){ font-size: $s8;
@@ -120,6 +121,7 @@
 }
   @include bp($xl){ font-size: $s6; letter-spacing: 1px; line-height: 1em;
 
+  &--xl   { font-size: $s8; line-height: 1.2; }
   &--xxl   { font-size: $s9; line-height: 1.1; }
 
   }
