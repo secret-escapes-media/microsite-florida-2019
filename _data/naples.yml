@@ -1,7 +1,7 @@
 - id: one
-  title: Mediterran trifft Karibik
+  title: "Naples: Mediterran trifft Karibik"
   img: bg-img1
-  description: "Das Städtchen Naples ist ein echtes Einkaufsparadies. Die Fifth Avenue South und die Third Street South, begeistern mit eleganten Boutiquen namhafter Luxusmarken. Zwischen den Häusern im mediterranen Stil, logieren internationale Restaurants mit gehobener Küche und reihen sich zwischen Galerien in die palmengesäumte Straße ein. Entlang der Strandpromenade, der Venetian Bay, mit ihren wunderschönen Springbrunnen, genießen Sie einen freien Blick auf das Meer, während Ihrer Einkaufstour. In Mercato feiern Sie in beliebten Bars oder Clubs in die Nacht hinein oder verbringen den Abend im Kino."
+  description: "Das Städtchen Naples lädt zum Flanieren ein: Die Fifth Avenue South und die Third Street South begeistern mit kleinen individuellen Boutiquen. Zwischen den Häusern im mediterranen Stil entlang der palmengesäumten Straßen finden Sie internationale Restaurants mit gehobener Küche und zahlreiche Galerien. Im Einkaufsviertel Village on Venetian Bay genießen Sie während Ihres Shoppingbummels freien Blick aufs Wasser. Wie wäre es mit einem leckeren Cocktail im Mercato, einem Szenetreff in Naples, zum Ausklang eines unvergesslichen Urlaubstages?"
 
 
 
@@ -9,9 +9,9 @@
 
 
 - id: two
-  title:  Zwischen Süßwasser und Meer
+  title:  "Marco Island: Zwischen Süßwasser und Meer"
   img: bg-img2
-  description: "Die traumhafte Badeinsel Marco Island ist über eine Brücke an das Festland angebunden. Zarter, weißer Sand und tiefhängende Kokospalmen sind beste Voraussetzungen für eine Auszeit am Strand. Von hier starten Erkundungstouren zu den Ten Thousand Islands: Die grünen Mangrovenwälder und Sumpfgebiete sind ein unberührtes Ökosystem. Wildtiere, wie Fischadler, Seekühe, Delfine und Alligatoren, leben in dem Übergangsgebiet zwischen Süßwasserfluss und Meer. Mit Sumpfbooten oder in kleinen Kajak-Gruppen, gilt es dieses aufregende Mündungsgebiet zu erkunden."
+  description: "Die traumhafte Badeinsel Marco Island ist über eine Brücke mit dem Festland verbunden. Der breite puderzuckerweiche Sandstrand und tiefhängende Kokospalmen sind beste Voraussetzungen für eine Auszeit am Strand mit der ganzen Familie. Mit Strandyoga lässt es sich hier wunderbar in den Tag starten. Per Boot oder in kleinen Kajakgruppen kann man von Marco Island aus auf Erkundungstour gehen: Wildtiere wie Fischadler, Seekühe und Delfine leben im Mündungsgebiet zwischen Süßwasserfluss und Meer. "
 
 
 
@@ -20,9 +20,9 @@
 
 
 - id: three
-  title: Floridas wilder Panther
+  title: Everglades
   img: bg-img3
-  description: "Zugegeben einen Panther erwartet man in diesem feuchten Sumpfgebiet am wenigsten. Doch es ist wahr: Im Everglades Nationalpark lebt Floridas einziger wilder Panther. Mit etwas Glück können Sie dieses scheue Tier in seiner natürlichen Umgebung beobachten. Auf Wanderungen durch das Unesco Weltnaturerbe begegnen Ihnen zudem die seltenen Manatees. Mit einer Fahrrad-Tour entlang des Snake Bight Trail und des Long Pine Key Nature Trail, erkunden Sie rund um das Schwemmland die flachen Ebenen der Mangrovenwälder. Entdecken Sie unbedingt vom Wasser aus die vielen Flüsse, Ströme und kleinen Inseln."
+  description: "Das UNESCO Weltnaturerbe der Everglades beherbergt über 100 verschiedene Tierarten, darunter die seltenen Manatees, die bedrohte Lederschildkröte oder den Florida-Panther. Die beeindruckende Natur lässt sich auf verschiedenen Wegen erleben: Bei einem Boardwalk erkunden Sie den Nationalpark zu Fuß, Abenteuerlustige können eine Airboat-Tour unternehmen und mit einem Kayak oder einem Stand Up Paddle Board lässt es sich ganz entspannt durch die Gewässer der Everglades gleiten. Im Shark Valley besteht sogar die Möglichkeit, Fahrräder auszuleihen und durch die Everglades zu radeln. "
 
 
 
@@ -32,7 +32,7 @@
 - id: four
   title: Traumstrände
   img: bg-img4
-  description: "Paradise Coast: Diese atemberaubende Küste erstreckt sich 48 km entlang der Golfküste und überall wartet feiner, weißer Sandstrand. Muschelsammler finden am Delnor-Wiggins Pass State Park die schönsten Exemplare. Ob Schnorcheln, Angeln, Kajak oder Tretboot fahren, im Barefoot Beach Preserve County Park steht dem Freizeitspaß am Strand nichts im Wege.  Auch am Vanderbilt Beach, am Tigertail Beach von Marco Island und am Municipal Beach von Naples, werden Boote und entsprechende Ausrüstung verliehen. Nur vom Wasser aus sind die unbewohnten Ten Thousand Islands und ihre kleinen Strandbuchten zu erreichen. "
+  description: "Paradise Coast: Diese atemberaubende Küste erstreckt sich 48 km entlang des Golfs von Mexiko und überall warten leicht zugängliche, weiße Sandstrände auf die Urlauber. Muschelsammler finden am Strand des Delnor-Wiggins Pass State Parks die schönsten Exemplare. Am Vanderbilt Beach, am Tigertail Beach von Marco Island und am Municipal Beach von Naples werden Boote und entsprechende Ausrüstung verliehen. Nur vom Wasser aus sind die unbewohnten Ten Thousand Islands und ihre kleinen Strandbuchten zu erreichen. "
 
 
 
@@ -42,7 +42,7 @@
 - id: five
   title: Für alle Sinne
   img: bg-img5
-  description: "Das Restaurant French Brasserie Rustique tischt seinen Gästen selbst angebautes Bio-Gemüse auf. Star-Koch Vincenzo Betulia verwandelt dabei die ökologischen Zutaten zu prämierten Gerichten und Menüs. Im Hafenviertel Crayton Cove können Angler unter dem Motto 'Cook-your-Catch', ihren frisch gefangenen Fisch selbst  zu schmackhaften Speisen anrichten. Auf dem jährlichen Naples Stone Crab Festival werden neue Kreationen mit Meeresfrüchten präsentiert und verköstigt. Spezialitäten, wie der Dreischwanzbarsch, Red Snapper und der Wahoo, sind in fast allen Restaurants entlang der Küste zu finden."
+  description: "Das Restaurant French Brasserie Rustique tischt seinen Gästen selbst angebautes Bio-Gemüse auf. Star-Koch Vincenzo Betulia verwandelt dabei die ökologischen Zutaten zu prämierten Gerichten und Menüs. Im Hafenviertel Crayton Cove können Angler unter dem Motto „Cook-your-Catch“ ihren frisch gefangenen Fisch selbst zu schmackhaften Speisen anrichten. Auf dem jährlichen Naples Stone Crab Festival werden neue Kreationen mit Meeresfrüchten präsentiert und verköstigt. Seltene Spezialitäten und weitere Köstlichkeiten sind auch im neu eröffneten Food Truck Park in Naples zu finden."
 
 
 

@@ -83,12 +83,12 @@ $offer-max-width: 600px;
     }
   }
   &__arrow {
-    display: none;
+    //display: none;
     width: $circle-height;
     height: $circle-height;
     min-width: $circle-height;
     min-height: $circle-height;
-    margin-left: $s-3;
+    //margin-left: $s-3;
     border: 1px solid $f-red;
     border-radius: $circle-height;
     background-repeat: no-repeat;

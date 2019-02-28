@@ -30,7 +30,29 @@
    }
 
 
-  .bv-headline-divider::after {
+$circle-height: 3.4rem;
+
+.bv-btn-up{
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: $circle-height;
+  height: $circle-height;
+  min-width: $circle-height;
+  min-height: $circle-height;
+
+  //margin-left: $s-3;
+  background-color: $f-red;
+  border-radius: $circle-height;
+  background-repeat: no-repeat;
+  background-image: url('../img/icons/arrow-left.svg');
+  background-size: auto ($circle-height/1.8);
+  background-position: 48% center;
+  transform: rotate(90deg);
+}
+
+.bv-headline-divider::after {
     content: ('========');
     display: block;
     //color: $f-blue;
@@ -39,35 +61,36 @@
     margin: 5px 0 -8px 2px;
   }
 
-   .bv-lineheight{
+.bv-lineheight{
     line-height: 1.2em;
    }
 
-   .bv-mob-left {
+.bv-mob-left {
      text-align: center;
    }
 
-   @media only screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
 
-     .bv-mob-left {
+  .bv-mob-left {
      text-align: left;
-     }
    }
 
-   .bv-mob-center {
-      text-align: left;
-    }
+ }
 
-    @media only screen and (max-width: 799px) {
+  .bv-mob-center {
+    text-align: left;
+  }
 
-      .bv-mob-center {
-      text-align: center;
+@media only screen and (max-width: 799px) {
+
+  .bv-mob-center {
+    text-align: center;
       margin-left: 0;
       }
-    }
+}
 
 /* ==========================================================================
-   Parallax & DRAWINGS
+   Parallax
    ========================================================================== */
 
 .bv-parallax{
@@ -75,63 +98,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-    &--left   {
-      background-attachment: fixed;
-      background-position: 32% 50%;
-      background-repeat: no-repeat;
-      background-size: cover;}
-
-
-    &--right   {
-      background-attachment: fixed;
-      background-position: 60% 50%;
-      background-repeat: no-repeat;
-      background-size: cover;}
-
-    &--darkest   {
-      background-attachment: fixed;
-      background-color: rgba(5,20,40,0.9);
-      background-blend-mode: multiply;
-      background-position: center;
-      background-size: cover;}
-
-    &--darker   {
-      background-attachment: fixed;
-      background-color: rgba(5,20,40,0.8);
-      background-blend-mode: multiply;
-      background-position: center;
-      background-size: cover;}
-
-    &--dark   {
-      background-attachment: fixed;
-      background-color: rgba(5,20,40,0.7);
-      background-blend-mode: multiply;
-      background-position: center;
-      background-size: cover;}
-
-    &--lighter   {
-      background-attachment: fixed;
-      background-color: rgba(250,250,250,0.7);
-      background-blend-mode: lighten;
-      background-position: center;
-      background-size: cover;
-      }
-
-    &--light   {
-      background-attachment: fixed;
-      background-color: rgba(250,250,250,0.5);
-      background-blend-mode: color;
-      background-position: center;
-      background-size: cover; }
-
-    &--white   {
-      background-attachment: fixed;
-      background-color: rgba(250,250,250,0.8);
-      background-blend-mode: overlay;
-      background-position: center;
-      background-size: cover; }
-
 }
 
 
@@ -148,45 +114,10 @@
 .bv-parallax{
       background-attachment: scroll;
       background-size: cover;
-
-    &--darkest   {
-      background-attachment: scroll;
-      background-size: cover;
-    }
-    &--darker   {
-      background-attachment: scroll;
-      background-size: cover;
-    }
-    &--dark   {
-      background-attachment: scroll;
-      background-size: cover;
-    }
-    &--lighter   {
-      background-attachment: scroll;
-      background-size: cover;
-      background-color: none;
-    }
-    &--light   {
-      background-attachment: scroll;
-      background-size: cover;
-      background-color: none;
-    }
-    &--white   {
-     background-attachment: scroll;
-     background-size: cover;
-     background-color: none;
-    }
   }
 }
 
 
-.bv-drawing{
-
-  background-repeat: no-repeat;
-  background-blend-mode: overlay;
-  background-size: cover;
-
-}
 
 
 
@@ -253,14 +184,6 @@ Flight tag - Offers
 
 
 
-
-
-
-
-
-
-
-
 /******* hide*******/
 .pt-hidden{
   display: none;
@@ -270,9 +193,10 @@ Flight tag - Offers
 }
 
 /**********box shadow*********/
+
 .bv-box-shadow{
 
-      -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
   -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
   box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
 }
@@ -286,57 +210,14 @@ Flight tag - Offers
   padding-right: 22px;
 }
 
+@media only screen and (max-width: 970px) {
 
-.pt-nature{
-  background-color: #4cb379;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
-}
-.pt-nature-font{
-  color: #299056;
+  .pt-culture, .pt-active, .pt-pleasure, .pt-nature{
+
+      border-radius: 6px;
+
   }
-
-.pt-nature-pin{
-    background-color: #299056;
-    }
-
-
-
-.pt-pleasure{
-  background-color: #fcc606;
-  border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
 }
-.pt-pleasure-font{
-  color: #fcc606;
-  }
-.pt-pleasure-pin{
-      background-color: #fcc606;
-      }
-
-.pt-active{
-  background-color: #4ea1d9;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-}
-.pt-active-font{
-  color: #4ea1d9;
-  }
-.pt-active-pin{
-        background-color:  #4ea1d9;
-        }
-
-
-
-
-    @media only screen and (max-width: 970px) {
-
-
-      .pt-culture, .pt-active, .pt-pleasure, .pt-nature{
-
-          border-radius: 6px;
-
-    }}
 /************ Preview-Box / accordion ***************/
 
 
@@ -345,7 +226,7 @@ Flight tag - Offers
  background-position: right center;
 }
 
-.pt-preview-wrapper, .pt-preview-default{
+.bv-preview-wrapper, .bv-preview-default{
   //position: absolute;
   /*width:72%;
   margin-right: 18%;
@@ -354,10 +235,18 @@ Flight tag - Offers
   min-width: 400px;
   max-width: 580px;
   border-bottom: 3px solid $f-red;
- width:100%;  height:auto; float: right; margin-top:10%; margin-left:20px;
+  width:100%;
+  height:auto;
+  float: right;
+  margin-top:3%;
+  float: right;
+  //margin-left:20px;
 }
 
-.pt-preview-default{
+.bv-preview-default{
+
+  margin-top:5%;
+  border-bottom: none;
 /*
   width:60%;
   top: 22%;*/

@@ -3,31 +3,44 @@ layout: default
 ---
 
 
+<div class=" vpad--xl " >
+  <div class="container">
+    <div class="width width--xl  text--left text  " >
 
+       <div class="text--xl">{{page.intro}}</div>
+       <div class="space--md"></div>
+    </div>
+  </div>
+</div>
 
 <div class="harvey pt-mob-hide bg--f-lightblue" >
 
   <!-- Preview Popups /-->
 
 
-  <div class="harvey__img pt-show" class="pt-preview" id="pt-preview-0" style="background-image: url('{{site.img}}/content/offers/hero.jpg');">
-      <div  class=" pt-preview-default bg--white bv-box-shadow" style="">
-        <div class="text text--xxl text--left boxpad--lg"  >Um ausgewählte Highlights zu sehen, klicken Sie mit der Maus auf die roten Regionen auf der Karte.</div>
+  <div class="harvey__img  pt-show" class="pt-preview" id="pt-preview-0">
+  <div class="serif-title serif-title--lg text--white bv-preview-default" >{{page.map-title}}</div>
+      <div  class=" bv-preview-wrapper bg--white bv-box-shadow" >
+
+        <div class="text text--xxl text--left boxpad--xl"  >Um ausgewählte Highlights zu sehen, klicken Sie mit der Maus auf die roten Regionen auf der Karte.</div>
+        <div class="space--xs"></div>
       </div>
   </div>
 
   {% for popup in page.map-popup %}
 
     <div class="harvey__img pt-hidden text" id="pt-preview-{{popup.id}}">
+
+      <div class="serif-title serif-title--lg text--white bv-preview-default">{{page.map-title}}</div>
       <a href="{{site.baseurl}}/{{popup.region}}">
-        <div  style="" class="pt-preview-wrapper bv-box-shadow bg--white" >
-          <div class="bg-img bg-img--16-9" style="background-image: url('{{site.img}}/content/{{popup.region}}/hero.jpg'); ">
+        <div class="bv-preview-wrapper bv-box-shadow bg--white" >
+          <div class="bg-img bg-img--21-9" style="background-image: url('{{site.img}}/content/{{popup.region}}/hero.jpg'); ">
               <div class="bg-img__content">
-                <div class="serif-title serif-title--xl bv-headline-divider ">{{popup.title}}</div>
+                <div class="serif-title serif-title--md ">{{popup.title}}</div>
               </div>
           </div>
           <div class="space--xxs"></div>
-          <div class="text--md text--black boxpad--md" >{{popup.content}} <span class="text--red text--bold">Jetzt&nbsp;entdecken!</span></div>
+          <div class="text--md text--black boxpad--lg" >{{popup.content}} <span class="text--red text--bold">Jetzt&nbsp;entdecken!</span></div>
           <div class="space--xxs"></div>
         </div>
       </a>
@@ -44,10 +57,10 @@ layout: default
   <div class="bob__text ">
 
 
-    <div class="" style=" width:100%; max-width:500px;  height:auto; float: left; margin-left:15%">
+    <div class="" style=" width:100%; max-width:600px; height:auto; float: right; margin-right:10%;">
 
 
-{% include page/map.html %}
+{% include page/map/map.html %}
 
 <div class="space--xl"></div>
 
@@ -61,7 +74,7 @@ layout: default
 
 
 <script>
-var total = 8;
+var total = 4;
 total = document.getElementsByClassName("bv-box-shadow");
 
 function toggle(n){
