@@ -7,7 +7,7 @@
 
   <a class="offer__link" href="{{offer.link}}" target="_blank"><span class="btn btn--f-red">Zum Angebot</span></a>
 
-  <div class="bg-img bg-img--3-2" style="background-image: url('{{site.img}}/content/{{offer.image}}')">
+  <div class="bg-img bg-img--3-2" style="background-image: url('{{offer.image}}')">
     {% if offer.flight-tag %}
       <img class="flight-tag" src="{{site.img}}/icons/flights-incl.png" alt="FLÜGE INKLUSIVE">
     {% endif %}
@@ -27,7 +27,7 @@
 
         {% if offer.saved %}
           <div class="offer__saved">
-            <div class="offer__saved-label ">Sparen Sie bis zu</div>
+            <div class="offer__saved-label ">Sparen Sie bis&nbsp;zu</div>
             <div class="offer__saved-percent serif-title  ">{{offer.saved}}<span style="font-size: 20px;">%</span></div>
           </div>
           <div class="offer__separator"></div>

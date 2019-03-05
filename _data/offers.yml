@@ -5,8 +5,9 @@
   price: 85
   price-description: pro Unterkunft pro Nacht
   saved: 62
-  image: img.jpg
-  link: #
+  image: "https://d1x3cbuht6sy0f.cloudfront.net/sales/89401/3ce2b933_b350_4318_b4f5_29c7b139b6ae.jpg"
+  flight-tag: true
+  link: "#"
 
 - title: "Here goes title"
   id: naples
@@ -15,8 +16,9 @@
   price: 105
   price-description: pro Zimmer pro Nacht
   saved: 71
-  image: img.jpg
-  link: #
+  image: "https://d1x3cbuht6sy0f.cloudfront.net/sales/89401/3ce2b933_b350_4318_b4f5_29c7b139b6ae.jpg"
+  flight-tag: #
+  link: "#"
 
 - title: "Here goes title"
   id: florida-keys
@@ -25,8 +27,9 @@
   price: 229
   price-description: pro Suite pro Nacht
   saved: 46
-  image: img.jpg
-  link: #
+  image: "https://d1x3cbuht6sy0f.cloudfront.net/sales/89401/3ce2b933_b350_4318_b4f5_29c7b139b6ae.jpg"
+  flight-tag: #
+  link: "#"
 
 - title: "Here goes title"
   id: stpete-clearwater
@@ -35,5 +38,6 @@
   price: 118
   price-description: pro Zimmer pro Nacht
   saved: 36
-  image: img.jpg
-  link: #
+  image: "https://d1x3cbuht6sy0f.cloudfront.net/sales/89401/3ce2b933_b350_4318_b4f5_29c7b139b6ae.jpg"
+  flight-tag: #
+  link: "#"

@@ -32,19 +32,20 @@
 
   // custom content headline
   font-family: $font-title-01;
-  font-size: $s4; // default size
+  font-size: $s5; // default size
   font-weight: 300;
+  line-height: 1.2em;
   &--lg     {
-
     font-size: $s3;
     line-height: 1.4em;
     font-weight: 300; }
+
   &--sm     { font-size: $s2; }
 
   @include bp($md){
 
-    font-size: $s6; // default size
-    &--lg     {  font-size: $s6; line-height: 1.2em; letter-spacing: .04em;
+    font-size: $s7; // default size
+    &--lg     {  font-size: $s6;  letter-spacing: .04em;
     //text-transform: uppercase;
  }
     &--sm     {  font-size: $s1; }
@@ -94,11 +95,21 @@
   font-size: $s8;
   line-height: .95em;
 
-  @include bp($md){ font-size: $s12;  }
-  @include bp($xl){ font-size: $s14;  line-height: .8em;
+  &--md   { font-size: $s9;  }
+  &--lg   { font-size: $s10;  }
+  &--xl   { font-size: $s11;  }
 
-  &--lg   { font-size: $s11;  }
+  @include bp($md){ font-size: $s9;
+
   &--md   { font-size: $s10;  }
+  &--lg   { font-size: $s11;  }
+  &--xl   { font-size: $s12;  }
+ }
+  @include bp($xl){ font-size: $s10;  line-height: .9em;
+
+  &--md   { font-size: $s11;  }
+  &--lg   { font-size: $s13;  }
+  &--xl   { font-size: $s14;  }
   }
 
 }
@@ -112,14 +123,26 @@
   //color: $f-blue;
   font-size: $s6;
 
+  &--lg   { font-size: $s5; line-height: 1.2; }
   &--xl   { font-size: $s7; line-height: 1.1; }
   &--xxl   { font-size: $s7; line-height: 1.1; }
 
   @include bp($md){ font-size: $s8;
-
+  &--lg   { font-size: $s7; line-height: 1.1; }
   &--xxl   { font-size: $s8; line-height: 1.1; }
-}
-  @include bp($xl){ font-size: $s6; letter-spacing: 1px; line-height: 1em;
+  }
+
+  @include bp($lg){ font-size: $s8;
+  &--lg   { font-size: $s7; line-height: 1.1; }
+  &--xxl   { font-size: $s8; line-height: 1.1; }
+  }
+  @include bp($xl){ font-size: $s5; letter-spacing: 1px; line-height: 1em;
+  &--lg   { font-size: $s6; line-height: 1.2; }
+  &--xl   { font-size: $s8; line-height: 1.2; }
+  &--xxl   { font-size: $s9; line-height: 1.1; }
+
+  }
+  @include bp($xxxl){ font-size: $s6; letter-spacing: 1px; line-height: 1em;
   &--lg   { font-size: $s7; line-height: 1.2; }
   &--xl   { font-size: $s8; line-height: 1.2; }
   &--xxl   { font-size: $s9; line-height: 1.1; }

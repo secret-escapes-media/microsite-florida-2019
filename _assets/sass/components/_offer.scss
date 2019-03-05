@@ -99,16 +99,18 @@ $offer-max-width: 600px;
   &__saved {
     display: inline-block;
     text-align: center;
+    line-height: .9em;
     &-percent {
       display: inline-block;
+      margin-top: 10px;
       width: $circle-height;
       height: $circle-height;
-      font-size: 28px;
+      font-size: 26px;
       margin-left: $s-6;
       text-align: center;
       color: #fff;
       font-weight: 600;
-      letter-spacing: -.1rem;
+      letter-spacing: -.05rem;
       line-height: $circle-height;
       background-color: $f-red;
       border-radius: $circle-height;

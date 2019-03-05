@@ -41,13 +41,11 @@ $circle-height: 3.4rem;
   height: $circle-height;
   min-width: $circle-height;
   min-height: $circle-height;
-
-  //margin-left: $s-3;
-  background-color: $f-red;
+  background-color: $white;
   border-radius: $circle-height;
   background-repeat: no-repeat;
   background-image: url('../img/icons/arrow-left.svg');
-  background-size: auto ($circle-height/1.8);
+  background-size: auto ($circle-height/2);
   background-position: 48% center;
   transform: rotate(90deg);
 }
@@ -55,7 +53,6 @@ $circle-height: 3.4rem;
 .bv-headline-divider::after {
     content: ('========');
     display: block;
-    //color: $f-blue;
     font-size: $s5;
     letter-spacing: -8px;
     margin: 5px 0 -8px 2px;
@@ -65,29 +62,7 @@ $circle-height: 3.4rem;
     line-height: 1.2em;
    }
 
-.bv-mob-left {
-     text-align: center;
-   }
 
-@media only screen and (max-width: 768px) {
-
-  .bv-mob-left {
-     text-align: left;
-   }
-
- }
-
-  .bv-mob-center {
-    text-align: left;
-  }
-
-@media only screen and (max-width: 799px) {
-
-  .bv-mob-center {
-    text-align: center;
-      margin-left: 0;
-      }
-}
 
 /* ==========================================================================
    Parallax
@@ -119,45 +94,157 @@ $circle-height: 3.4rem;
 
 
 
-
-
 /* ==========================================================================
- Collapsible
+florida map + elements
 ========================================================================== */
 
 
-.bv-collapsible {
 
-  cursor: pointer;
-
+.bv-box-shadow{
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
+  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
 }
 
-.bv-collapsible:after {
-  content: ' ansehen ';
+.bv-map-svg{
+  min-height:380px;
+  margin-left: -10px;
+
+  @include bp($sm) {
+
+    min-height:400px;
+    margin-left: -10px;
+
+  }
+  @include bp($xxl) {
+
+    min-height:500px;
+
+  }
 }
 
-.bv-active:after {
-  content: ' schliessen ';
+
+.bv-map{
+  width:100%;
+  max-width:600px;
+  height:auto;
+  margin:0 ;
+
+ @include bp($xl) {
+   width:100%;
+    margin:0 4%;
+ }
+
+ @include bp($xxl) {
+   max-width: 600px;
+    margin:0 4%;
+ }
 }
 
-.bv-content {
 
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.5s ease-out;
-}
-
-
-/* ==========================================================================
-Old photo border
-========================================================================== */
-
-.bv-photoborder{
-
-  border: 12px solid $white;
+.bv-close-popup{
+  position: absolute;
+  margin-top: -20px;
+  margin-right: 0px;
+  margin-left: 89%;
+  padding: 0 5px;
+  z-index: 999;
+  width: 40px;
+  height: 40px;
+  font-size: 22px;
+  border-radius: 50px;
+  text-align: center;
   background-color: $white;
-  //padding: 15px;
-  //border-image: url(../img/icons/frame.png) 30 stretch;
+
+  @include bp($sm) { margin-left: 90%; }
+
+  @include bp($md) { margin-left: 92%; margin-top: -20px; }
+
+  @include bp($lg) {
+    margin-left: 95%;
+    margin-top: -20px;
+    font-size: 26px;
+    padding: 2px 5px;
+    width: 50px;
+    height: 50px; }
+}
+
+
+.bv-preview-wrapper{
+
+  position:absolute;
+  width: 89%;
+  z-index: 9999;
+  margin-top: -390px;
+
+  @include bp($sm) {
+    position:absolute;
+    width: 89%;
+    z-index: 9999;
+    margin-top: -370px;
+  }
+
+  @include bp($md) {
+    position:absolute;
+    width: 89%;
+    z-index: 9999;
+    margin-top: -88%;
+  }
+
+  @include bp($lg) {
+    position:absolute;
+    width: 79%;
+    left: 10%;
+    z-index: 9999;
+    margin-top: -75%;
+  }
+
+  @include bp($xxl) {
+    position:relative;
+    border-bottom: 3px solid $f-red;
+    width:100%;
+    left: auto;
+    height:auto;
+    margin-top: auto;
+  }
+}
+
+.bv-preview-default{
+  position:relative;
+  border-bottom: 3px solid $f-red;
+  width:100%;
+  height:auto;
+  border-bottom: none;
+}
+
+
+.bv-hidden{
+  display: none;
+}
+.bv-show{
+  display: block;
+}
+
+.bv-mob-hide {
+  display: none;
+  @include bp($xxl) {
+    display: block;
+  }
+}
+
+.bv-mob-show {
+  display: block;
+  @include bp($xxl) {
+    display: none;
+  }
+}
+
+.bv-mob-arrow {
+  height: 0px;
+  margin-top: -22px;
+  margin-left: 45%;
+  position: absolute;
+  z-index:1000;
 }
 
 
@@ -172,168 +259,10 @@ Flight tag - Offers
   left: $s-2;
   display: block;
   width: 50%;
+
   @include bp($sm){
     top: $s0;
     left: $s0;
     width: 146px;
   }
-}
-
-
-
-
-
-
-/******* hide*******/
-.pt-hidden{
-  display: none;
-}
-.pt-show{
-  display: block;
-}
-
-/**********box shadow*********/
-
-.bv-box-shadow{
-
-  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
-  -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
-  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.25);
-}
-
-
-/*********** Categories Colours *********/
-
-.pt-hpad-sm{
-
-  padding-left: 22px;
-  padding-right: 22px;
-}
-
-@media only screen and (max-width: 970px) {
-
-  .pt-culture, .pt-active, .pt-pleasure, .pt-nature{
-
-      border-radius: 6px;
-
-  }
-}
-/************ Preview-Box / accordion ***************/
-
-
-
-.pt-preview-bg-pos{
- background-position: right center;
-}
-
-.bv-preview-wrapper, .bv-preview-default{
-  //position: absolute;
-  /*width:72%;
-  margin-right: 18%;
-  margin-top: 12%;
-  //display: table;*/
-  min-width: 400px;
-  max-width: 580px;
-  border-bottom: 3px solid $f-red;
-  width:100%;
-  height:auto;
-  float: right;
-  margin-top:3%;
-  float: right;
-  //margin-left:20px;
-}
-
-.bv-preview-default{
-
-  margin-top:5%;
-  border-bottom: none;
-/*
-  width:60%;
-  top: 22%;*/
-
-}
-
-
-@media only screen and (max-width: 1024px) {
-.pt-preview-wrapper{
-
-  margin-top: 15%;
-
-}
-}
-
-.pt-opacity{
-
- background-color: #000;
- width:100%;
- height: 100%;
- padding: 0;
- text-align: center;
-
-
-}
-
-
-.accordion {
-    /*background-color: #eee;*/
-
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    color: #fff;
-    text-align: left;
-    outline: none;
-    font-size: 18px;
-    transition: 0.4s;
-    font-weight: normal;
-}
-.accordion::after{
-  content: url(../img/icons/close.svg);
-  transform: scale(.3) rotate(45deg);
-  display: block;
-  margin-top: -42px;
-  margin-bottom: -18px;
-  margin-left: 90%;
-}
- .accordion:hover{
-
-   font-weight: bold;
- }
- .active{
-
-      font-weight: bold;
-
-
-     /**/
- }
-.active::after {
-content: url(../img/icons/close.svg);
-  transform: scale(.3)  rotate(0deg);
-
-}
-
-.panel {
-    padding:18px;
-    margin-top: -3px;
-    display: none;
-    background-color: white;
-    overflow: hidden;
-    text-align: left;
-    font-size: 16px;
-    font-weight: normal;
-      border-bottom-left-radius: 6px;
-      border-bottom-right-radius: 6px;
-
-}
-
-.panel-img{
-width:100%;
-padding-bottom: 20%;
-padding-top:20%;
-background-size: cover;
-text-align: center;
-letter-spacing: -0.5px;
-background-position: right center;
-
 }
