@@ -9,17 +9,6 @@
   flight-tag: #
   link: "http://bit.ly/2TMB2Ef"
 
-- title: "Florida: Die Strandperle der USA"
-  id: stpete-clearwater
-  location: The Don CeSar, St. Pete Beach, Florida, USA
-  description: Legendäres Hotel am traumhaften St. Pete Beach – inkl. Resort-Guthaben
-  price: 118
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 45
-  image: "https://d1x3cbuht6sy0f.cloudfront.net/sales/69336/1691bd96_1148_49c1_9e1a_a21312005657.jpg"
-  flight-tag: #
-  link: "http://bit.ly/2J9248F"
-
 - title: "Lichtblicke am Südzipfel der USA"
   id: florida-keys
   location: Lighthouse Court Hotel, Key West, Florida, USA
@@ -30,17 +19,6 @@
   image: "https://d1x3cbuht6sy0f.cloudfront.net/sales/91268/f8d738e4_e1a0_402a_b580_a4409f5a7f97.jpg"
   flight-tag: #
   link: "http://bit.ly/2JU2sZd"
-
-- title: "Erholsame Sonnentage in Key&nbsp;West"
-  id: florida-keys
-  location: The Marker Waterfront Resort, Key West, Florida, USA
-  description: "Traumziel Florida: Entspannter Lifestyle in Key West inkl. 1 Piccolo-Flasche Champagner"
-  price: 82
-  price-description: pro Person - basierend auf 2 Personen
-  saved: 44
-  image: "https://d1x3cbuht6sy0f.cloudfront.net/sales/67183/57d667b3_d5ea_4fc8_aa81_2246dc5dd763.jpg"
-  flight-tag: #
-  link: "http://bit.ly/2UaPOZD"
 
 - title: "Idyllisches Inn auf den Keys"
   id: florida-keys
